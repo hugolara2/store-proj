@@ -17,10 +17,10 @@ router.get('/', (req, res) => {
   res.json(products);
 });
 
-router.get('/:id', (req, res) => {
-  const { id } = req.params;
+router.get('/:productId', (req, res) => {
+  const { productId } = req.params;
   res.json({
-    id: id,
+    id: productId,
     name: 'Producto2',
     price: 200
   });
