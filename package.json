@@ -4,7 +4,9 @@
   "description": "Project to create a store using node js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js",
+    "start": "node  index.js",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/hugolara2/store-proj/issues"
   },
-  "homepage": "https://github.com/hugolara2/store-proj#readme"
+  "homepage": "https://github.com/hugolara2/store-proj#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1"
+  }
 }
