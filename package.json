@@ -1,0 +1,19 @@
+{
+  "name": "store-proj",
+  "version": "1.0.0",
+  "description": "Project to create a store using node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugolara2/store-proj.git"
+  },
+  "author": "Hugo Lara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugolara2/store-proj/issues"
+  },
+  "homepage": "https://github.com/hugolara2/store-proj#readme"
+}
